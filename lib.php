@@ -528,9 +528,9 @@ function occapira_get_coursemodule_info($coursemodule) {
 		$info->content .= '<div class="kurs-lektion-titel"><h1 class="lektionstitel">'.$occapira->name.'</h1></div>';
 	}
 	 
-	$info->content .= '<div class="row-fluid" id="mooc-course-content-top">'.
-						'<div class="span7" id="mooc-course-video">'.
-							'<div class="fitvid" style="padding: 0px; margin: 0px;" height="auto" width="100%">'.
+	$info->content .= '<div width="100%" id="mod-occapira-content-top">'.
+						'<div width="100%" id="mod-occapira-video" style="display:block; min-height:200px; min-width:300px;">'.
+							'<div style="padding: 0px; margin: 0px;" height="auto" width="100%">'.
 								'<iframe class= "oc-capira-iframe" style="border: 0px;" src="https://capira.de/player/?nostats=1&iframeapi=1&amp;'.
 								$autoplay.'#/'.
 								$occapira->capiraid.'" width="'.

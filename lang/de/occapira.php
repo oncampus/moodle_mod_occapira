@@ -17,7 +17,7 @@
 
 
 /**
- * English strings for occapira
+ * German strings for occapira
  *
  * You can have a rather longer description of the file as well,
  * if you like, and it can span multiple lines.
